@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ColdStart</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splash">冷启动</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Splash</string>
+</resources>
