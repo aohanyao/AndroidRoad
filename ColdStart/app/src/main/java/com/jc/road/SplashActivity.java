@@ -17,7 +17,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_splash);
-
+//        StatusBarUtil.setTranslucentForImageView(this, null);
 
         new Handler().postDelayed(new Runnable() {
             @Override

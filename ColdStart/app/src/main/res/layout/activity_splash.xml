@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="#00000000"
     tools:context=".SplashActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -13,10 +13,11 @@
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="bottom|center_horizontal"
         android:keepScreenOn="true"
+        android:layout_marginBottom="@dimen/fab_margin"
         android:text="@string/dummy_content"
-        android:textColor="#33b5e5"
+        android:textColor="#000"
         android:textSize="50sp"
         android:textStyle="bold" />
 

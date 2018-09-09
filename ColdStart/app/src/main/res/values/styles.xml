@@ -1,12 +1,27 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- 基本主题 -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <!--纯色加启动图标的方案-->
+    <style name="SplashThemeLayer" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg_splash_layer_list</item>
+    </style>
+    <!--使用图片的方案-->
+    <style name="SplashThemeImage" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@mipmap/icon_splish</item>
+        <!--沉浸-->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -25,5 +40,6 @@
     <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
         <item name="android:background">@color/black_overlay</item>
     </style>
+
 
 </resources>
