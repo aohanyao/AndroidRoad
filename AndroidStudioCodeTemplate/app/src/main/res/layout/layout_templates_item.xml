@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center"
+    android:id="@+id/tv_templates_item"
+    android:layout_marginTop="@dimen/dp_4"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:text="模板"
+    android:background="#fff"
+    android:textColor="@color/colorPrimary"/>
