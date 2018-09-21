@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StringFormart</string>
+    <string name="action_settings">Settings</string>
+    <string name="introduction">你好，我的名字是%s，今年%d岁，我的邮箱是%s,以下是浮点数:%f</string>
+</resources>
